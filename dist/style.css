@@ -1,8 +1,12 @@
-body {
+p {
+  font-size: 1em;
 }
-
 a {
   color: black;
+}
+
+h1 {
+  font-size: 1.7rem;
 }
 
 a:hover {
@@ -10,8 +14,16 @@ a:hover {
   text-decoration: none;
 }
 
+.heading-bottom-margin {
+  margin-bottom: 70px;
+}
+
 .izbran {
   color: red;
+}
+
+.jumbotron-width {
+  width: 80%;
 }
 
 /* .elipse {
