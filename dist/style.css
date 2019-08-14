@@ -1,0 +1,26 @@
+body {
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.izbran {
+  color: red;
+}
+
+/* .elipse {
+  transform: rotate(-90deg);
+  background: red;
+  width: 150px;
+  height: 230px;
+  border-bottom-left-radius: 85% 60%;
+  border-bottom-right-radius: 85% 60%;
+  border-top-left-radius: 85% 60%;
+  border-top-right-radius: 85% 60%;
+} */
