@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="./icons/lg.png" />
+    <title>
+      Voltaire
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body style="background-image: url(./icons/bodybackground.jpg);">
+    <!-- Header -->
+    <div
+      class="d-flex flex-column flex-md-row align-items-center p-3 px-md0-4 mb-3 bg-white border-bottom shadow-sm"
+    >
+      <a class="my-0 mr-md-auto font-weight-normal" href="index.html">
+        <img width="40px" height="40px" src="./icons/Logo.svg" alt="" />
+      </a>
+      <!-- Navigation -->
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a style="margin: 0% 2.6rem;" href="index.html">
+          ideja
+        </a>
+        <a class="izbran" style="margin: 0% 2.6rem;" href="ekipa.html">
+          pridruži se ekipi
+        </a>
+      </nav>
+    </div>
+
+    <!-- Jumbotron: Postani del ekipe -->
+    <div
+      style="color: white; background-color:  #000000; margin-top: 100px;"
+      class="jumbotron-width position-relative overflow-hidden  text-center mx-auto p-3"
+    >
+      <div class="col-md-5  mx-auto my-5">
+        <h1 class="heading-bottom-margin font-weight-normal">
+          <b>Postani del ekipe</b>
+        </h1>
+        <p class="lead">
+          Imaš čas vložiti vsaj 2 uri na dan v noro ambiciozno idejo in znaš
+          full-stack ali pa server-side web development?
+        </p>
+
+        <p class="lead">
+          Povabljen si na kratek no-pressure sestanek z mlado ekipo, ki stoji za
+          ambicioznim projektom.
+        </p>
+      </div>
+    </div>
+
+    <!-- Jumbotron: Zakaj bi se pridružil? -->
+    <div
+      style="color: white; background-color:  #5B6B72;"
+      class="jumbotron-width position-relative overflow-hidden  text-center mx-auto p-3"
+    >
+      <div class="col-md-5  mx-auto my-5">
+        <h1 class="heading-bottom-margin font-weight-normal">
+          <b>Zakaj bi se pridružil?</b>
+        </h1>
+        <p class="lead ">
+          Razvijamo platformo, ki ima po našem mnenju možnost za globalno rast
+          na ravni velikih tehnoloških aplikacij, ki jih uporabljamo vsak dan.
+          Težko verjameš? Pridi na kratek sestanek, kjer ti bomo povedali več in
+          se prepričaj sam.
+        </p>
+        <p class="lead">
+          Lahko postaneš del te ekipe, če pa se ne bo izšlo boš imel odlično
+          referenco in odlično učno izkušnjo.
+        </p>
+      </div>
+    </div>
+
+    <!-- Jumbotron: Koga iščemo? -->
+    <div
+      style="color: white; background-color: #C99595;"
+      class="jumbotron-width position-relative overflow-hidden  text-center mx-auto p-3"
+    >
+      <div class="col-md-5 mx-auto my-5">
+        <h1 class="heading-bottom-margin font-weight-normal">
+          <b>Koga iščemo?</b>
+        </h1>
+        <p class="lead ">
+          Trenutno najbolj potrebujemo full-stack ali pa server-side web
+          developerja.
+        </p>
+
+        <p class="lead">
+          Če pa imaš znanje web developmenta, digitalnega marketinga ali drugih
+          prodročij v razvoju spletnega izdelka, smo se pripravljeni sestati s
+          teboj.
+        </p>
+        <p class="lead">
+          Izobrazba, starost in prejšnje delovne izkušnje so nepomebni
+          kriteriji. Šteje le sposobnost.
+        </p>
+        <div style="margin-top: 50px;">
+          <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Ime: <input type="text" name="name"/></label>
+            </p>
+            <p>
+              <label>Email: </label>
+              <input type="email" name="email" />
+            </p>
+            <p>
+              <label>Kaj znam? </label>
+              <textarea name="message"></textarea>
+            </p>
+            <p>
+              <button class="btn btn-dark" type="submit">Vnesi</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div style="margin-top: 100px; font-size: 20px;" class="p-3 bg-dark text-center text-white">
+      Voltaire 2019 &copy; by Matevž Matjašec
+    </div>
+  </body>
+</html>
